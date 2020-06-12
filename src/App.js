@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import Demo from './components/Demo'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Muhammad Faheel</h1>
+      <Demo friendName='Noman' filmName='Wanted' ageName='21' />
+      <Demo friendName='Zain' filmName='The Lucy' ageName='23' />
     </div>
   );
 }
